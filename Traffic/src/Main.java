@@ -2,29 +2,6 @@ public class Main
 {
 	public static void main(String args[]) throws InterruptedException
 	{
-		  // long startTime = System.();
-		  /*long totalSeconds=System.currentTimeMillis();
-			System.out.println("s="+totalSeconds);
-			/*for(int i=1;i<=9;i++)
-			{
-				time2=time2/60;
-			}
-			System.out.println("time= "+time2);
-			int seconds = (int) (totalSeconds % 60);
-			int minutes = (int) ((totalSeconds % 3600) / 60);
-			int hours = (int) ((totalSeconds % 86400) / 3600);
-			int days = (int) ((totalSeconds % (86400 * 30)) / 86400);
-			System.out.println("days="+days);
-			System.out.println("hours= "+hours);
-			System.out.println("minutes= "+minutes);
-			System.out.println("seconds= "+seconds);
-		//System.out.println("s"+time2/60/60/60/60/60/60/60/60/60);
-		//Node<String> n = new Node<String>("");
-		//List<String> l= new List<String>();
-		//l.enqeue("a");
-		//l.enqeue("data");
-		//System.out.println(l.toString());*/
-		//List<String> list= new List<String>();
 
 		SyncCount count= new SyncCount();
 		System.out.println(count);
